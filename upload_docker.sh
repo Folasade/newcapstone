@@ -1,4 +1,3 @@
-  
 #!/usr/bin/env bash
 # This file tags and uploads an image to Docker Hub
 
