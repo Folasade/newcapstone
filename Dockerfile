@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM apache
 
 # Copy source code to working directory
 COPY index.html /var/www/html
