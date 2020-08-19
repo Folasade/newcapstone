@@ -7,7 +7,7 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath=folasade/capstonefola
+dockerpath="folasade/capstonefola"
 
 # Step 2:  
 # Authenticate & tag
