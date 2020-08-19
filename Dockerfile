@@ -1,4 +1,4 @@
-FROM apache2
+FROM httpd
 
 # Copy source code to working directory
 COPY index.html /var/www/html
