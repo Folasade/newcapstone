@@ -12,7 +12,7 @@ pipeline {
                   sh 'docker build -t capstonefola .'
               }
          }
-         stage('Push Docker Image') {(
+         stage('Push Docker Image') {
               steps {
                   withDockerRegistry([url: "", credentialsId: "docker-hub"]) {
                       sh "docker tag capstonefola folasade/capstonefola"
