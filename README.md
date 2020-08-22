@@ -5,7 +5,7 @@ This project is a summary of all modules learned in the DevOps Nanodegree projec
 
 The project develops a CI/CD pipeline for a static web applications with rolling deployment. The continuous integration includes typographical checking: linting, errors in the html page was captured. In the Continuos Deployment, the built Docker container was pushed to the Docker repository. The Docker container was deployed to a Kubernetes cluster. Cloudformation was used to deploy the Kubernetes cluster and was run from Jenkins.
 
-The knowledge applied are from:
+### The knowledge applied are from:
 * Working in AWS
 * Using Jenkins to implement Continuous Integration and Continuous Deployment
 * Building pipelines
@@ -15,10 +15,8 @@ The knowledge applied are from:
 
 ## Environment Setup
 Dockerfile
-Jenkinsfile including all steps 
-AWS CLI to create AWS EKS Cluster and node group
-CloudFormation scripts for the EKS cluster and node group
-Jenkins and necessary plugins installed in an EC2 instance
+
+Jenkinsfile
 
 ## Project Outline
 Create an "Hello Udacity" static website application
