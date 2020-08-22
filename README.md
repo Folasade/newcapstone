@@ -29,21 +29,34 @@ Install Jenkins and necessary plugins in an EC2 instance
 #### Lint HTML
 * sh 'tidy -q -e *.html'
 
+#### Docker image build and run
+run_docker.sh
 
-Docker Container build to serve the a static website
-Jenkins pipeline build, steps are in Jenkinsfile, linting step for html file included
-Docker image build
-Docker image uploaded to Dockerhub
-Kubenetes container build on AWS (Cloudformation scripts generated)
-Website served on AWS kubenetes with rolling deployment
+#### Docker image uploaded to Dockerhub
+upload_docker.sh
+
+#### Deploy web app to AWS
+#### Cleaning App
 
 ## Script
 Dockerfile
+
+
 Jenkinsfile
+
+
 capstone-deploy.yml
+
+
 capstone4.yml
+
+
 capstone4-nodegroups.yml
+
+
 run_docker.sh
+
+
 upload_docker.sh
 
 
