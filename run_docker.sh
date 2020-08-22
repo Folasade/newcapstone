@@ -13,4 +13,4 @@ docker images
 
 # Step 3: 
 # Run app
-docker run -p 8000:80 capstonefola
+docker run -p 80:80 capstonefola
