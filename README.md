@@ -1,11 +1,11 @@
 # DevOps Nanodegree Capstone Project
 
 ## Project Overview
-This project is a summary of all modules learned in the DevOps Nanodegree project
+This project is a summary of all modules learnt in the DevOps Nanodegree project
 
 The project develops a CI/CD pipeline for a static web applications with rolling deployment. The continuous integration includes typographical checking: linting, errors in the html page was captured. In the Continuos Deployment, the built Docker container was pushed to the Docker repository. The Docker container was deployed to a Kubernetes cluster. Cloudformation was used to deploy the Kubernetes cluster and was run from Jenkins.
 
-### The knowledge applied are from:
+### Knowledge applied are from:
 * Working in AWS
 * Using Jenkins to implement Continuous Integration and Continuous Deployment
 * Building pipelines
@@ -20,8 +20,9 @@ Create Jenkinsfile, include all steps
 
 Create Cloudformation scripts for EKS cluster and node group in AWS
 
-
 Install Jenkins and necessary plugins in an EC2 instance
+
+Deployment and service scripts for Kubernetes
 
 
 ## Project Outline
