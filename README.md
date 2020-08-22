@@ -16,7 +16,16 @@ The project develops a CI/CD pipeline for a static web applications with rolling
 ## Environment Setup
 Create Dockerfile
 
-Create Jenkinsfile
+Create Jenkinsfile, include all steps
+
+Create Cloudformation scripts for EKS cluster and node group in AWS
+
+
+Install Jenkins and necessary plugins in an EC2 instance
+
+
+
+
 
 
 
