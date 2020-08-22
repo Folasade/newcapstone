@@ -29,7 +29,7 @@ Docker image uploaded to Dockerhub
 Kubenetes container build on AWS (Cloudformation scripts generated)
 Website served on AWS kubenetes with rolling deployment
 
-## Scripts
+## Script
 Dockerfile
 Jenkinsfile
 capstone-deploy.yml
