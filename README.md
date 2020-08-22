@@ -38,7 +38,7 @@ upload_docker.sh
 #### Deploy web app to AWS
 #### Cleaning App
 
-## Script
+## Scripts
 Dockerfile
 
 
