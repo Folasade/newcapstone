@@ -39,11 +39,7 @@ spec:
   selector:
     app: capstonefola
   ports: 
-    - name: http
-      protocol: TCP
-      port: 80
+    - port: 80
       targetPort: 80
-    - name: https
+      nodePort: 8000
       protocol: TCP
-      port: 443
-      targetPort: 443
