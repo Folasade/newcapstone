@@ -15,6 +15,7 @@ The project develops a CI/CD pipeline for a static web applications with rolling
 
 ## Environment Setup
 Create Dockerfile
+
 Create Jenkinsfile
 
 
