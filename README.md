@@ -27,38 +27,32 @@ The project develops a CI/CD pipeline for a static web applications with rolling
 
 ## Project Outline
 #### 1. Create an "Hello Udacity" static website application
-#### Lint HTML
+#### 2. Lint HTML
 * sh 'tidy -q -e *.html'
 
-#### Docker image build and run
+#### 3. Docker image build and run
 run_docker.sh
 
-#### Docker image uploaded to Dockerhub
+#### 4. Docker image uploaded to Dockerhub
 upload_docker.sh
 
-#### Deploy web app to AWS
-#### Cleaning App
+#### 5. Deploy web app to AWS
+#### 6. Cleaning App
 
 ## Scripts
-Dockerfile
+* Dockerfile
 
+* Jenkinsfile
 
-Jenkinsfile
+* capstone-deploy.yml
 
+* capstone4.yml
 
-capstone-deploy.yml
+* capstone4-nodegroups.yml
 
+* run_docker.sh
 
-capstone4.yml
-
-
-capstone4-nodegroups.yml
-
-
-run_docker.sh
-
-
-upload_docker.sh
+* upload_docker.sh
 
 
 
