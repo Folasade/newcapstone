@@ -12,3 +12,33 @@ The knowledge applied are from:
 * Working with Ansible and CloudFormation to deploy clusters
 * Building Kubernetes clusters
 * Building Docker containers in pipelines
+
+## Environment Setup
+Dockerfile
+Jenkinsfile including all steps 
+AWS CLI to create AWS EKS Cluster and node group
+CloudFormation scripts for the EKS cluster and node group
+Jenkins and necessary plugins installed in an EC2 instance
+
+## Project Outline
+Create an "Hello Udacity" static website application
+Docker Container build to serve the a static website
+Jenkins pipeline build, steps are in Jenkinsfile, linting step for html file included
+Docker image build
+Docker image uploaded to Dockerhub
+Kubenetes container build on AWS (Cloudformation scripts generated)
+Website served on AWS kubenetes with rolling deployment
+
+## Scripts
+Dockerfile
+Jenkinsfile
+capstone-deploy.yml
+capstone4.yml
+capstone4-nodegroups.yml
+run_docker.sh
+upload_docker.sh
+
+
+
+
+
