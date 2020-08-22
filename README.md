@@ -14,19 +14,19 @@ The project develops a CI/CD pipeline for a static web applications with rolling
 * Building Docker containers in pipelines
 
 ## Environment Setup
-Create Dockerfile
+* Create Dockerfile
 
-Create Jenkinsfile, include all steps
+* Create Jenkinsfile, include all steps
 
-Create Cloudformation scripts for EKS cluster and node group in AWS
+* Create Cloudformation scripts for EKS cluster and node group in AWS
 
-Install Jenkins and necessary plugins in an EC2 instance
+* Install Jenkins and necessary plugins in an EC2 instance
 
-Deployment and service scripts for Kubernetes
+* Deployment and service scripts for Kubernetes
 
 
 ## Project Outline
-#### Create an "Hello Udacity" static website application
+#### 1. Create an "Hello Udacity" static website application
 #### Lint HTML
 * sh 'tidy -q -e *.html'
 
