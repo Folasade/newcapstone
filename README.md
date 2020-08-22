@@ -24,14 +24,12 @@ Create Cloudformation scripts for EKS cluster and node group in AWS
 Install Jenkins and necessary plugins in an EC2 instance
 
 
-
-
-
-
-
-
 ## Project Outline
-Create an "Hello Udacity" static website application
+#### Create an "Hello Udacity" static website application
+#### Lint HTML
+* sh 'tidy -q -e *.html'
+
+
 Docker Container build to serve the a static website
 Jenkins pipeline build, steps are in Jenkinsfile, linting step for html file included
 Docker image build
